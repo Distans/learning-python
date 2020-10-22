@@ -1,0 +1,9 @@
+pair1 = ('a', 'b', 'c')
+pair2 = ('d', 'e', 'f')
+index = 0
+
+while index < len(pair1):
+    for item in pair2:
+        print(pair1[index], item)
+    index += 1
+
