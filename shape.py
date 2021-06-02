@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/data/data/com.termux/files/usr/bin/python3
 
 length = 10
 astr = "*"

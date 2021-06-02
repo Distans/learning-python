@@ -1,4 +1,4 @@
-#! /data/data/com.termux/files/usr/bin/python3
+#!/data/data/com.termux/files/usr/bin/python3
 
 print('how many puppies do you have?')
 puppies = input()

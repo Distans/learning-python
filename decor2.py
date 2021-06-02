@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 def inspect(func, *args):
     def wrapped(*args, **kwargs):
         print(f"running {func.__name__}")

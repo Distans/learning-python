@@ -1,10 +1,9 @@
-import sys
+#!/data/data/com.termux/files/usr/bin/python3
 
-x = input("please enter an even number: ")
+x = int(input("please enter an even number: "))
 
-try:
-    x % 2 == 0
-except:
-    print("error 13: not an even number")
-    sys.exit(13)
+if x % 2 == 0: 
+    pass
+else:
+    print("error: not an even number entered")
 

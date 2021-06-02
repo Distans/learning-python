@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 for number in list(range(100)):
     if number % 3 == 0 and number % 5 == 0:
         print("FizzBuzz")

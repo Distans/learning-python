@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 string = input('enter some text: ')
 
 def palindrome(string):

@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 count = 7
 while count > 0:
     print("*" * count)
