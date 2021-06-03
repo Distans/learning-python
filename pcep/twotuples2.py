@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 pair1 = ('a', 'b', 'c')
 pair2 = ('d', 'e', 'f')
 index = 0
