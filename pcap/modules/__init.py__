@@ -1,0 +1,9 @@
+"""
+This module helps to extract all upercase or all lovercase letters from a string
+"""
+
+# a docstring is not a comment!
+
+__all__ = ['extract_upper', 'extract_lower']
+
+
