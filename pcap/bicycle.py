@@ -43,3 +43,5 @@ trike = Tricycle()
 print(f"Tricycle 2 has {trike.wheels}.")
 print(trike.wheeled())
 
+print(f"The Bicycle class has the {Bicycle.__subclasses__()} subclass.")
+
