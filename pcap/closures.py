@@ -1,9 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/python3
 
 def greeter(prefix):
-    second_name = prefix + "Mr"
     def greet(name):
-        print(f"{prefix} {name} {second_name}")
+        print(f"{prefix} {name}")
     return greet
 
 hello = greeter("Hello,")
