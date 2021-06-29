@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 i = int(input("integer 1: "))
 j = int(input("integer 2: "))
 
