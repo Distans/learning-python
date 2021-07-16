@@ -4,14 +4,16 @@ def fun(n):
     try:
         return 0 / n
     except:
-        print('exception raised')
-#        raise
-        return 1
+        print('an exception raised:')
+        raise
 
 try:
     fun(0)
-except ZeroDivisionError:
-    print('exception reraised')
+except:
+    print('cannot divide by zero')
 
-#raise
+try:
+    fun('0')
+except:
+    print('cannot divide by a string')
 
