@@ -26,11 +26,21 @@ class HelloWorld:
     def hello(self):
         print('hello')
         self.world()
+    def __hi(self):
+        print('hi')
+        self.world()
 
 hw_obj = HelloWorld()
 hw_obj.word2 = "world"
 hw_obj.method()
 hw_obj.hello()
+
+try:
+    hw_obj.__hi()
+except:
+    print('access denied')
+
+hw_obj._HelloWorld__hi()
 
 print('#####')
 
