@@ -73,3 +73,27 @@ print(stack_object.description)
 print(new_stack_object.description)
 print(big_stack_object.description)
 
+def show_bases(cls):
+    for x in cls.__bases__:
+        return x.__name__
+
+print(show_bases(AddStack))
+print(show_bases(Stack))
+
+class MultiStack(AddStack):
+    pass
+
+print('#####')
+
+for cls1 in [Stack, AddStack, MultiStack]:
+    for cls2 in [Stack, AddStack, MultiStack]:
+        print(issubclass(cls1, cls2), end='\t')
+    print()
+
+print('#####')
+
+for obj1 in [stack_object, new_stack_object, big_stack_object]:
+    for cls1 in [Stack, AddStack, MultiStack]:
+        print(isinstance(obj1, cls1), end='\t')
+    print()
+

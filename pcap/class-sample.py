@@ -50,4 +50,5 @@ class WorkingClass:
 
 person = WorkingClass("docker")
 print(person.profession)
+print(type(person).__name__)
 
