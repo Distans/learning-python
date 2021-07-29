@@ -53,3 +53,8 @@ print(person.profession)
 print(type(person).__name__)
 print(person.__str__())
 
+print('#####')
+print(hasattr(HelloWorld, 'word1'))
+print(hasattr(hw_obj, 'word1'))
+print(hasattr(hw_obj, 'word2'))
+
