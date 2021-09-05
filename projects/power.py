@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/python3
+
 def power(x, y):
     if y == 0:
         return 1
